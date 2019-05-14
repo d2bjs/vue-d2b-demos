@@ -1,11 +1,13 @@
 {
-  "name": "d2b-demos",
+  "name": "vue-d2b-demos",
   "scripts": {
     "propagate": "node propagate.js"
   },
   "dependencies": {
+    "vue-d2b": "2.0.0-beta.3",
     "d2b": "1.0.0-beta.3",
-    "d3": "5.9.2"
+    "d3": "5.9.2",
+    "vue": "^2.5.22"
   },
   "devDependencies": {
     "recursive-readdir": "^2.2.2"
