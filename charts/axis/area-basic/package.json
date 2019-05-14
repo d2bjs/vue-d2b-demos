@@ -1,6 +1,5 @@
 {
   "name": "d2b-axis-area-basic-demo",
-  "main": "src/index.html",
   "scripts": {
     "build": "vue-cli-service build",
     "serve": "vue-cli-service serve",
