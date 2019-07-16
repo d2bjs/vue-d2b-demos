@@ -21,9 +21,10 @@ concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
 
-d2b@1.0.0-beta.2:
-  version "1.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/d2b/-/d2b-1.0.0-beta.2.tgz#d019b2dcb86c9250c26c58cd0253569513e9cc50"
+d2b@1.0.0-beta.3, d2b@beta:
+  version "1.0.0-beta.3"
+  resolved "https://registry.yarnpkg.com/d2b/-/d2b-1.0.0-beta.3.tgz#d4fc1939ebe73ede41d4fea9a07dd2ed6382997d"
+  integrity sha512-9NyaV/MjWqHuGZIzOlziuy076MSn2BnV0eT3e0Tz6d9Q67WN4L1X6A2m3uflG3rY0EE2TBikynN1jG8nqYwg2w==
   dependencies:
     d3-array "^2.0.3"
     d3-axis "^1.0.12"
@@ -352,3 +353,30 @@ rw@1:
 "safer-buffer@>= 2.1.2 < 3":
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
+
+vue-class-component@^6.2.0:
+  version "6.3.2"
+  resolved "https://registry.yarnpkg.com/vue-class-component/-/vue-class-component-6.3.2.tgz#e6037e84d1df2af3bde4f455e50ca1b9eec02be6"
+  integrity sha512-cH208IoM+jgZyEf/g7mnFyofwPDJTM/QvBNhYMjqGB8fCsRyTf68rH2ISw/G20tJv+5mIThQ3upKwoL4jLTr1A==
+
+vue-d2b@2.0.0-beta.3:
+  version "2.0.0-beta.3"
+  resolved "https://registry.yarnpkg.com/vue-d2b/-/vue-d2b-2.0.0-beta.3.tgz#966beec06054765a00b72ba2b398f779620cff9b"
+  integrity sha512-Rdj2V658JhNZnFJ24iNIf4BrsJ99wSfBASTfN3rM0axahLqT3ooYOjiPqcMzSselHXNoK6DlunShs/BpyQHwDQ==
+  dependencies:
+    d2b beta
+    d3-selection "^1.4.0"
+    d3-transition "^1.2.0"
+    vue-property-decorator "^7.0.0"
+
+vue-property-decorator@^7.0.0:
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/vue-property-decorator/-/vue-property-decorator-7.3.0.tgz#d50d67f0b0f1c814f9f2fba36d6eeccbcc62dbb6"
+  integrity sha512-HarXfTQ/Nxm4s/APpAaGIGHq5ZzslApImQy8ZrtkfGamw8rUFAVgMS5C50/AQ80+wfw3Wpnf4bNzbmj75m/k2Q==
+  dependencies:
+    vue-class-component "^6.2.0"
+
+vue@^2.5.22:
+  version "2.6.10"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.10.tgz#a72b1a42a4d82a721ea438d1b6bf55e66195c637"
+  integrity sha512-ImThpeNU9HbdZL3utgMCq0oiMzAkt1mcgy3/E6zWC/G6AaQoeuFdsl9nDhTDU3X1R6FK7nsIUuRACVcjI+A2GQ==
